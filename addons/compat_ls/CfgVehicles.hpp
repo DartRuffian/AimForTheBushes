@@ -1,6 +1,6 @@
 class CfgVehicles {
     class Helicopter_Base_H;
-    class lsd_laat_base: Helicopter_Base_H {
+    class ls_laati_base: Helicopter_Base_H {
         GVARMAIN(passengerTurrets)[] = {
             // Left and right ramp seats, side seats, inside standing seats
             {1}, {2},
@@ -21,7 +21,7 @@ class CfgVehicles {
         };
         EGVAR(helocast,marker) = "Chemlight_green";
     };
-    class lsd_heli_laati_ab: lsd_laat_base {
+    class ls_laati_airborne: ls_laati_base {
         EGVAR(staticLine,enabled) = 1;
         EGVAR(staticLine,condition) = QUOTE(true);
     };
